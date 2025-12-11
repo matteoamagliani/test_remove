@@ -1,0 +1,40 @@
+ISTRUZIONI PER CORREGGERE GLI ERRORI DEL PROGETTO
+=====================================================
+
+Il problema è che la tua copia locale del progetto non è sincronizzata con GitHub.
+
+SOLUZIONE:
+
+1. Chiudi Visual Studio completamente
+
+2. Apri Git Bash o Command Prompt nella cartella del progetto:
+   cd C:\Users\YB9535951\source\repos\AngelastroGeremy
+
+3. Scarica tutti i file dal repository:
+   git fetch origin
+   git reset --hard origin/main
+
+4. Elimina le cartelle bin e obj:
+   rmdir /s /q AngelastroGeremy\bin
+   rmdir /s /q AngelastroGeremy\obj
+
+5. Riapri Visual Studio e ricompila:
+   - Apri AngelastroGeremy.sln
+   - Build > Clean Solution
+   - Build > Rebuild Solution
+
+ALTERNATIVA SE NON HAI GIT:
+
+1. Scarica tutti i file manualmente da GitHub:
+   https://github.com/matteoamagliani/test_remove
+
+2. Sostituisci questi file nella tua cartella locale:
+   - AngelastroGeremy\AngelastroGeremy.csproj
+   - AngelastroGeremy\App.xaml
+   - AngelastroGeremy\MainWindow.xaml
+   - Tutti i file in AngelastroGeremy\ViewModels\
+   - Tutti i file in AngelastroGeremy\Views\
+
+3. Elimina le cartelle bin e obj
+
+4. Riapri il progetto in Visual Studio e ricompila
