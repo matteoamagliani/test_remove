@@ -1,0 +1,30 @@
+﻿<Application x:Class="AngelastroGeremy.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:AngelastroGeremy.ViewModels"
+             xmlns:views="clr-namespace:AngelastroGeremy.Views"
+             StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type vm:ProductsViewModel}">
+                <views:ProductsView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:OrdersViewModel}">
+                <views:OrdersView />
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:CustomersViewModel}">
+                <views:CustomersView />
+            </DataTemplate>
+
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

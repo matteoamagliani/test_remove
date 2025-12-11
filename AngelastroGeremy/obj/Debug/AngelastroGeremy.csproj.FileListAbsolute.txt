@@ -1,0 +1,12 @@
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\AngelastroGeremy.csproj.AssemblyReference.cache
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\Views\CustomersView.baml
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\Views\OrdersView.baml
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\Views\ProductsView.baml
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\MainWindow.g.cs
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\Views\CustomersView.g.cs
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\Views\OrdersView.g.cs
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\Views\ProductsView.g.cs
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\App.g.cs
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\AngelastroGeremy_MarkupCompile.cache
+C:\Users\YB9535951\source\repos\AngelastroGeremy\AngelastroGeremy\obj\Debug\AngelastroGeremy_MarkupCompile.lref

@@ -1,0 +1,121 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 🎨 PALETTA COLORI -->
+    <Color x:Key="PrimaryBlue">#1F7AEC</Color>
+    <Color x:Key="PrimaryBlueHover">#2A88FF</Color>
+    <Color x:Key="PrimaryBluePressed">#1460C0</Color>
+    <Color x:Key="SuccessGreen">#28A745</Color>
+    <Color x:Key="DangerRed">#DC3545</Color>
+    <Color x:Key="LightGray">#E5E5E5</Color>
+    <Color x:Key="SoftBorder">#D0D7E1</Color>
+    <Color x:Key="HeaderDark">#1B2431</Color>
+
+    <!-- 🎨 BRUSHES -->
+    <SolidColorBrush x:Key="PrimaryBlueBrush" Color="{StaticResource PrimaryBlue}"/>
+    <SolidColorBrush x:Key="PrimaryBlueHoverBrush" Color="{StaticResource PrimaryBlueHover}"/>
+    <SolidColorBrush x:Key="PrimaryBluePressedBrush" Color="{StaticResource PrimaryBluePressed}"/>
+    <SolidColorBrush x:Key="SuccessGreenBrush" Color="{StaticResource SuccessGreen}"/>
+    <SolidColorBrush x:Key="DangerRedBrush" Color="{StaticResource DangerRed}"/>
+    <SolidColorBrush x:Key="GrayBrush" Color="{StaticResource LightGray}"/>
+    <SolidColorBrush x:Key="SoftBorderBrush" Color="{StaticResource SoftBorder}"/>
+    <SolidColorBrush x:Key="HeaderBackground" Color="{StaticResource HeaderDark}"/>
+
+    <!-- 🌟 EFFETTI -->
+    <DropShadowEffect x:Key="SoftShadow" BlurRadius="16" ShadowDepth="2" Opacity="0.25"/>
+    <DropShadowEffect x:Key="HoverShadow" BlurRadius="22" ShadowDepth="4" Opacity="0.35"/>
+
+    <!-- 🔘 BOTTONE PRINCIPALE AVANZATO -->
+    <Style TargetType="Button" x:Key="PrimaryButton">
+        <Setter Property="Background" Value="{StaticResource PrimaryBlueBrush}"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Padding" Value="12,6"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Effect" Value="{StaticResource SoftShadow}"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="bd"
+                            Background="{TemplateBinding Background}"
+                            CornerRadius="10"
+                            Padding="{TemplateBinding Padding}"
+                            RenderTransformOrigin="0.5,0.5">
+
+                        <Border.RenderTransform>
+                            <ScaleTransform x:Name="scale" ScaleX="1" ScaleY="1"/>
+                        </Border.RenderTransform>
+
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="{StaticResource PrimaryBlueHoverBrush}"/>
+                            <Setter TargetName="bd" Property="Effect" Value="{StaticResource HoverShadow}"/>
+                            <Setter TargetName="scale" Property="ScaleX" Value="1.05"/>
+                            <Setter TargetName="scale" Property="ScaleY" Value="1.05"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="scale" Property="ScaleX" Value="0.95"/>
+                            <Setter TargetName="scale" Property="ScaleY" Value="0.95"/>
+                            <Setter TargetName="bd" Property="Background" Value="{StaticResource PrimaryBluePressedBrush}"/>
+                        </Trigger>
+
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="bd" Property="Background" Value="#BEBEBE"/>
+                            <Setter Property="Foreground" Value="#666"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Varianti -->
+    <Style TargetType="Button" x:Key="GreenButton" BasedOn="{StaticResource PrimaryButton}">
+        <Setter Property="Background" Value="{StaticResource SuccessGreenBrush}"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="RedButton" BasedOn="{StaticResource PrimaryButton}">
+        <Setter Property="Background" Value="{StaticResource DangerRedBrush}"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="GrayButton" BasedOn="{StaticResource PrimaryButton}">
+        <Setter Property="Background" Value="{StaticResource GrayBrush}"/>
+        <Setter Property="Foreground" Value="Black"/>
+    </Style>
+
+    <!-- 🧱 CARD PRODOTTO -->
+    <Style TargetType="Border" x:Key="ProductCard">
+        <Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="BorderBrush" Value="{StaticResource SoftBorderBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="Margin" Value="12"/>
+        <Setter Property="Effect" Value="{StaticResource SoftShadow}"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <ScaleTransform ScaleX="1" ScaleY="1"/>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Effect" Value="{StaticResource HoverShadow}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource PrimaryBlueBrush}"/>
+                <Setter Property="RenderTransform">
+                    <Setter.Value>
+                        <ScaleTransform ScaleX="1.04" ScaleY="1.04"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

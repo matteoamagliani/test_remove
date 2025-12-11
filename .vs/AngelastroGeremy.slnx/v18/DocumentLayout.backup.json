@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|c:\\users\\yb9535951\\source\\repos\\angelastrogeremy\\angelastrogeremy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|solutionrelative:angelastrogeremy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|c:\\users\\yb9535951\\source\\repos\\angelastrogeremy\\angelastrogeremy\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|solutionrelative:angelastrogeremy\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|c:\\users\\yb9535951\\source\\repos\\angelastrogeremy\\angelastrogeremy\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|solutionrelative:angelastrogeremy\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|c:\\users\\yb9535951\\source\\repos\\angelastrogeremy\\angelastrogeremy\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|solutionrelative:angelastrogeremy\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|c:\\users\\yb9535951\\source\\repos\\angelastrogeremy\\angelastrogeremy\\views\\customersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|solutionrelative:angelastrogeremy\\views\\customersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|c:\\users\\yb9535951\\source\\repos\\angelastrogeremy\\angelastrogeremy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDBA232F-0E5E-4C0A-89EB-286753390B70}|AngelastroGeremy\\AngelastroGeremy.csproj|solutionrelative:angelastrogeremy\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomersView.xaml",
+              "DocumentMoniker": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\Views\\CustomersView.xaml",
+              "RelativeDocumentMoniker": "AngelastroGeremy\\Views\\CustomersView.xaml",
+              "ToolTip": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\Views\\CustomersView.xaml",
+              "RelativeToolTip": "AngelastroGeremy\\Views\\CustomersView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T14:06:53.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AngelastroGeremy\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\App.xaml.cs",
+              "RelativeToolTip": "AngelastroGeremy\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:06:15.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AngelastroGeremy\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\MainWindow.xaml",
+              "RelativeToolTip": "AngelastroGeremy\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T13:45:54.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\App.xaml",
+              "RelativeDocumentMoniker": "AngelastroGeremy\\App.xaml",
+              "ToolTip": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\App.xaml",
+              "RelativeToolTip": "AngelastroGeremy\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T13:25:33.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "AngelastroGeremy\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "AngelastroGeremy\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T13:50:12.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AngelastroGeremy\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\YB9535951\\source\\repos\\AngelastroGeremy\\AngelastroGeremy\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AngelastroGeremy\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:01:35.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
